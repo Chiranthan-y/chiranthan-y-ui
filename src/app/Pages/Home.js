@@ -9,7 +9,7 @@ const Home = () => {
       </div>
       <div className="py-2">
         <h1 className="text-5xl font-semibold">
-          I'm
+          {"I'm"}
           <span className="text-6xl font-extrabold text-primaryred">
             Chiranthan Y
           </span>
