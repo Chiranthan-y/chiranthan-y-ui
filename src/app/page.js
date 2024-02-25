@@ -1,3 +1,5 @@
+"use client"; // This is a client component 👈🏽
+import About from "./Pages/About";
 import Home from "./Pages/Home";
 import Main from "./Pages/Main";
 export default function Index() {
@@ -9,6 +11,7 @@ export default function Index() {
       </head>
       <Main>
         <Home />
+        <About />
       </Main>
     </div>
   );
